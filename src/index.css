@@ -1,0 +1,5 @@
+@import '~normalize.css';
+@import 'style/fonts';
+@import 'style/style';
+@import 'style/_base';
+@import '../node_modules/tailwindcss/tailwind';

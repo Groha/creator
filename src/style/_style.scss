@@ -1,0 +1,25 @@
+.container {
+  @apply max-w-[1440px] mx-auto md:pl-[200px] lg:pl-[300px] md:pr-20;
+}
+
+.moving {
+  @apply grow-0 flex-shrink-0 flex gap-20;
+
+  picture {
+    @apply flex-shrink-0;
+  }
+
+  div {
+    @apply grid;
+  }
+}
+
+.scroll-container.active {
+  .moving-title {
+    opacity: 0.4;
+  }
+
+  .moving-sub {
+    opacity: 0;
+  }
+}

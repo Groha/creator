@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
+.h1 {
+  @apply text-[52px] leading-[50px] md:text-[78px] md:leading-[70px];
+}
+
+.h2 {
+  @apply text-[25px] leading-[25px] md:text-[41px] md:leading-[46px];
+}
+
+.h4 {
+  @apply text-[16px] leading-[20px] md:text-[18px] md:leading-[23px];
+}
+
+.main-txt {
+  @apply text-[14px] leading-[18px];
+}
+
+.small-txt {
+  @apply text-[12px] leading-[14px];
+}
+
+.moving-block {
+  position: absolute;
+  top: 0;
+}
